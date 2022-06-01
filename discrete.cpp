@@ -198,13 +198,6 @@ void mod4_min(const int x, const int y)
     std::cout << "(" << 2 + x << ", " << 1 + y << ")\n";
 }
 
-void mod2_4(const int m, const int n, const int k, const int p)
-{
-    int i, j;
-
-
-}
-
 void mod2_horiz(const int m, const int n)
 {
     int k = (m % SIZE) == 2 ? m / SIZE : 0;
@@ -355,5 +348,3 @@ int main()
     }
     return 0;
 }
-
-
